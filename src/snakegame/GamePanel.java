@@ -54,7 +54,7 @@ public final class GamePanel extends JPanel implements ActionListener {
         g.fillOval(foodX,foodY,UNIT_SIZE,UNIT_SIZE);
         for (int i = 0; i < bodyParts; i++){
             if(i == 0){
-                g.setColor(Color.YELLOW);
+                g.setColor(Color.GREEN);
                 g.fillRect(x[i], y[i],UNIT_SIZE,UNIT_SIZE);
             }
             else{
